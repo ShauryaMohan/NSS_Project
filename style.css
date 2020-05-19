@@ -136,6 +136,7 @@ body{
     border-image: linear-gradient(135deg,#02aab0,#00cdac);
     margin: 20px;
     
+    
 }
 .image{
     height: 30%;
@@ -160,6 +161,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    margin-bottom: 10px;
 }
 .card-content hr{
     visibility: visible;
