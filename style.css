@@ -129,7 +129,7 @@ body{
 .cards {
     background-color: white;
     width:25%;
-    height:520px;
+    height:auto;
     overflow: hidden;
     box-shadow: 2px 2px 7px rgb(0,0,0,0.4);
     border: 2px;
