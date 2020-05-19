@@ -130,7 +130,7 @@ body{
     background-color: white;
     width:25%;
     height:auto;
-    overflow: hidden;
+    overflow: scroll;
     box-shadow: 2px 2px 7px rgb(0,0,0,0.4);
     border: 2px;
     border-image: linear-gradient(135deg,#02aab0,#00cdac);
