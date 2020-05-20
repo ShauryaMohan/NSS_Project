@@ -20,6 +20,8 @@ body{
     height: 20px;
 }
 .navbar {
+    display: flex;
+    flex-wrap:wrap;
     transition: .1s;
     width: auto;
     overflow: hidden;
@@ -38,11 +40,14 @@ body{
     font-family: sans-serif;
     padding: 5px 10px;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 15px;
     margin-top: 10px;
     font-size: 20px;
     font-weight: 700;
     transition-duration: .1s;
+}
+.navbar .push{
+    margin-left: auto;
 }
 
 
@@ -114,32 +119,30 @@ body{
     
 }
 .cover {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     height:auto;
     width:auto;
     margin:0px;
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
-    
+    padding-bottom: 20px;
 }
 .cards {
+    padding: 10px;
     background-color: white;
-    width: 25%;
     height:auto;
     overflow: hidden;
     box-shadow: 2px 2px 7px rgb(0,0,0,0.4);
     border: 2px;
     border-image: linear-gradient(135deg,#02aab0,#00cdac);
-    margin: 20px;
     
     
 }
 .image{
-    height: 30%;
+    height: auto;
     width: auto;
     margin: 10px 20px;
 }
@@ -147,6 +150,9 @@ body{
 .image img{
     height:100%;
     width:100%;
+}g
+.card-content{
+    height:70%;
 }
 .card-content h2{
     text-align: center;
@@ -161,7 +167,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    margin-bottom: 10px;
 }
 .card-content hr{
     visibility: visible;
