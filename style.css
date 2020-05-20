@@ -118,6 +118,9 @@ body{
     color: rgb(100,100,100);
     
 }
+.sticky + #upper-page-content{
+    padding-top:80px;
+}
 .cover {
     display: grid;
     grid-gap: 30px;
